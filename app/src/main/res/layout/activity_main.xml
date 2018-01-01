@@ -10,18 +10,16 @@
 
    <ImageView
        android:id="@+id/potatoQuizImage"
+       android:background="@android:color/holo_green_dark"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:layout_weight="1"/>
+       android:layout_weight="1" />
 
 
    <ImageView
-       android:id="@+id/quiz2Image"
+       android:id="@+id/hipsterFoodQuizImage"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_weight="1"/>
-
-
-
 
 </LinearLayout>

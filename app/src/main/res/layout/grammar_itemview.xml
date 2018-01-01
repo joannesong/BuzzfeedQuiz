@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/grammar_image_iv"
+        android:layout_width="250dp"
+        android:layout_height="200dp" />
+
+    <CheckedTextView
+        android:id="@+id/grammar_top_checked_textview"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="answer"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checkMarkTint="@android:color/white"
+        android:checked="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="10dp">
+
+        <CheckedTextView
+            android:id="@+id/grammar_bottom_checked_textview"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="answer"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checkMarkTint="@android:color/white"
+            android:checked="false"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

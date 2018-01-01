@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PotatoActivity"></activity>
+        <activity android:name=".PotatoActivity" />
+        <activity android:name=".GrammarActivity"></activity>
     </application>
 
 </manifest>
