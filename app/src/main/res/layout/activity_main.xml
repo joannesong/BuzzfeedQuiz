@@ -8,18 +8,29 @@
     android:orientation="vertical"
     tools:context="nyc.c4q.buzzfeedquiz.MainActivity">
 
-   <ImageView
+   <TextView
        android:id="@+id/potatoQuizImage"
-       android:background="@android:color/holo_green_dark"
+       android:background="@android:color/holo_orange_light"
        android:layout_width="match_parent"
+       android:text="Make Mashed Potatoes And We'll Reveal If You're An Introvert Or Extrovert"
+       android:textSize="20dp"
+       android:textStyle="bold"
        android:layout_height="wrap_content"
-       android:layout_weight="1" />
+       android:layout_margin="20dp"
+       android:layout_weight="1"
+       android:gravity="center"/>
 
 
-   <ImageView
-       android:id="@+id/hipsterFoodQuizImage"
+   <TextView
+       android:id="@+id/grammarQuizText"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
+       android:text="This Test Will Determine How Good You Are At Grammar"
+       android:background="@android:color/darker_gray"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="20dp"
+       android:layout_margin="20dp"
        android:layout_weight="1"/>
 
 </LinearLayout>

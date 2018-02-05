@@ -35,5 +35,6 @@ public class PotatoActivity extends AppCompatActivity {
         PotatoAdapter potatoAdapter = new PotatoAdapter(potatoBuzzfeedQuiz);
         recyclerView.setAdapter(potatoAdapter);
 
+
     }
 }
